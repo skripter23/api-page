@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;400&display=swap');
+
+
+.menu-item {
+	min-width: 234px;
+	min-height: 43px;
+	width: 234px;
+	height: 43px;
+	background: #514869;
+	margin-top: 28px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.menu-item-text {
+	font-family: 'Noto Sans JP', sans-serif;
+	color: white;
+}
+
+.menu-item:hover {
+	cursor: pointer;
+	transition: 0.3s;
+	transform: scale(1.1);
+}

@@ -1,0 +1,39 @@
+.dogs {
+	display: flex;
+	min-height: 80px;
+	min-width: 600px;
+	max-width: 600px;
+	height: auto;
+	width: auto;
+	color: white;
+	font-weight: bold;
+	font-size: 24px;
+	line-height: 24px;
+	background-color: #514869;
+	border-radius: 10px;
+	margin-top: 30px;
+	padding: 15px;
+	justify-content: center;
+	align-items: center;
+}
+
+.dogs img {
+	max-width: 500px;
+	max-height: 550px;
+}
+
+.current-dog-time {
+	display: flex;
+	height: 80px;
+	width: 600px;
+	color: white;
+	font-weight: bold;
+	font-size: 24px;
+	line-height: 24px;
+	background-color: #514869;
+	border-radius: 10px;
+	margin-top: 10px;
+	padding: 5px;
+	justify-content: center;
+	align-items: center;
+}

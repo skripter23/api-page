@@ -1,0 +1,120 @@
+.title {
+	display: flex;
+	min-height: 60px;
+	min-width: 300px;
+	width: auto;
+	padding: 10px;
+	color: white;
+	font-weight: bold;
+	font-size: 24px;
+	line-height: 24px;
+	background-color: #514869;
+	border-radius: 10px;
+	margin-top: 110px;
+	justify-content: center;
+	align-items: center;
+}
+
+.current-time {
+	display: flex;
+	height: 80px;
+	width: 600px;
+	color: white;
+	font-weight: bold;
+	font-size: 24px;
+	line-height: 24px;
+	background-color: #514869;
+	border-radius: 10px;
+	margin-top: 20px;
+	padding: 5px;
+	justify-content: center;
+	align-items: center;
+}
+
+.current-tags {
+	display: flex;
+	min-height: 80px;
+	min-width: 190px;
+	max-width: 610px;
+	width: auto;
+	color: white;
+	font-weight: bold;
+	font-size: 24px;
+	line-height: 24px;
+	background-color: #514869;
+	border-radius: 10px;
+	margin-top: 20px;
+	padding: 15px;
+	justify-content: center;
+	align-items: center;
+}
+
+.current-tags-div {
+	display: flex;
+	justify-content: flex-start;
+	width: 610px;
+}
+
+.body {
+	display: flex;
+	min-height: 80px;
+	min-width: 600px;
+	max-width: 600px;
+	height: auto;
+	width: auto;
+	color: white;
+	font-weight: bold;
+	font-size: 24px;
+	line-height: 24px;
+	background-color: #514869;
+	border-radius: 10px;
+	margin-top: 20px;
+	padding: 15px;
+	justify-content: center;
+	align-items: center;
+}
+
+.window-quotes {
+	display: flex;
+	flex-direction: column;
+	min-height: 100vh;
+	min-width: 100vw;
+	justify-content: flex-start;
+	align-items: center;
+  	opacity: 0;
+  	animation: ani 2.5s forwards;
+}
+
+@keyframes ani {
+  0% {opacity: 0;}
+  100% {opacity: 1;}
+}
+
+.about-quotes-activity {
+	display: flex;
+	flex-direction: column;
+	min-height: 80px;
+	min-width: 700px;
+	max-width: 700px;
+	color: white;
+	font-weight: bold;
+	font-size: 24px;
+	line-height: 24px;
+	background-color: #514869;
+	border-radius: 10px;
+	margin-top: 20px;
+	padding: 15px;
+	justify-content: center;
+	align-items: center;
+	margin-bottom: 150px;
+}
+
+.about-quotes-activity a {
+	color: white;
+	text-decoration: none;
+}
+
+.about-quotes-activity a:hover {
+	cursor: pointer;
+	text-decoration: underline;
+}

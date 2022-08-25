@@ -1,0 +1,54 @@
+.chucknorris-activity {
+	display: flex;
+	flex-direction: column;
+	min-height: 100vh;
+	min-width: 100vw;
+	justify-content: flex-start;
+	align-items: center;
+  	opacity: 0;
+  	animation: ani 2.5s forwards;
+}
+
+.about-chucknorris-activity {
+	display: flex;
+	flex-direction: column;
+	min-height: 80px;
+	min-width: 700px;
+	max-width: 700px;
+	color: white;
+	font-weight: bold;
+	font-size: 24px;
+	line-height: 24px;
+	background-color: #514869;
+	border-radius: 10px;
+	margin-top: 20px;
+	padding: 15px;
+	justify-content: center;
+	align-items: center;
+	margin-bottom: 70px;
+}
+
+.about-chucknorris-activity a {
+	color: white;
+	text-decoration: none;
+}
+
+.about-chucknorris-activity a:hover {
+	cursor: pointer;
+	text-decoration: underline;
+}
+
+.chucknorris-title {
+	display: flex;
+	height: 60px;
+	width: 300px;
+	color: white;
+	font-weight: bold;
+	font-size: 24px;
+	line-height: 24px;
+	background-color: #514869;
+	border-radius: 10px;
+	margin-top: 60px;
+	justify-content: center;
+	align-items: center;
+}

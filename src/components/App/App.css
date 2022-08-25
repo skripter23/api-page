@@ -1,0 +1,46 @@
+.App {
+  margin: 0;
+  padding: 0;
+  display: grid;
+  grid-template-columns: 21% auto;
+  width: auto;
+  height: auto;
+  min-height: 100vh;
+  max-height: auto;
+  background: #201B2C;
+}
+
+.menu {
+  width: auto;
+  height: 600px;
+  min-height: 100vh;
+  max-height: auto;
+  background: #362E49;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  overflow: auto;
+  overflow-x: hidden;
+}
+
+.menu::-webkit-scrollbar {
+  width: 6px;
+  border-radius: 4px;
+  background: #9f98b3;
+}
+
+.menu::-webkit-scrollbar-track {
+  border-radius: 4px;
+}
+
+.menu::-webkit-scrollbar-thumb {
+    background: #514869;
+    border-radius: 8px;
+}
+
+.window {
+  width: auto;
+  height: auto;
+  min-height: 100vh;
+  max-height: 100vh;
+}

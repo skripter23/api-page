@@ -1,0 +1,146 @@
+.number-activity {
+	display: flex;
+	flex-direction: column;
+	min-height: 100vh;
+	min-width: 100vw;
+	justify-content: flex-start;
+	align-items: center;
+  	opacity: 0;
+  	animation: ani 2.5s forwards;
+}
+
+.about-number-activity {
+	display: flex;
+	flex-direction: column;
+	min-height: 80px;
+	min-width: 700px;
+	max-width: 700px;
+	color: white;
+	font-weight: bold;
+	font-size: 24px;
+	line-height: 24px;
+	background-color: #514869;
+	border-radius: 10px;
+	margin-top: 20px;
+	padding: 15px;
+	justify-content: center;
+	align-items: center;
+	margin-bottom: 60px;
+}
+
+.about-number-activity a {
+	color: white;
+	text-decoration: none;
+}
+
+.about-number-activity a:hover {
+	cursor: pointer;
+	text-decoration: underline;
+}
+
+.current-time {
+	display: flex;
+	height: 80px;
+	width: 600px;
+	color: white;
+	font-weight: bold;
+	font-size: 24px;
+	line-height: 24px;
+	background-color: #514869;
+	border-radius: 10px;
+	margin-top: 20px;
+	padding: 5px;
+	justify-content: center;
+	align-items: center;
+}
+
+.facts {
+	display: flex;
+	border: 1px solid black;
+	min-height: 80px;
+	min-width: 700px;
+	margin-top: 20px;
+	background-color: #514869;
+	color: white;
+	justify-content: space-around;
+	align-items: center;
+	border-radius: 10px;
+	font-size: 20px;
+	line-height: 24px;
+}
+
+.random-math-fact {
+	display: flex;
+	align-items: center;
+	padding: 5px;
+	border-left: 1px solid white;
+	border-right: 1px solid white;
+	min-height: 60px;
+	border-radius: 10px;
+}
+
+.random-math-fact:hover {
+	cursor: pointer;
+	transition: 0.3s; 
+	background-color: #766e8b;
+}
+
+.random-trivia-fact {
+	display: flex;
+	align-items: center;
+	padding: 5px;
+	border-left: 1px solid white;
+	border-right: 1px solid white;
+	min-height: 60px;
+	border-radius: 10px;
+}
+
+.random-trivia-fact:hover {
+	cursor: pointer;
+	transition: 0.3s; 
+	background-color: #766e8b;
+}
+
+.random-date-fact {
+	display: flex;
+	align-items: center;
+	padding: 5px;
+	border-left: 1px solid white;
+	border-right: 1px solid white;
+	min-height: 60px;
+	border-radius: 10px;
+}
+
+.random-date-fact:hover {
+	cursor: pointer;
+	transition: 0.3s; 
+	background-color: #766e8b;
+}
+
+.fact-number {
+	display: flex;
+	flex-direction: column;
+	min-height: 80px;
+	min-width: 700px;
+	max-width: 700px;
+	color: white;
+	font-size: 24px;
+	line-height: 24px;
+	background-color: #514869;
+	border-radius: 10px;
+	margin-top: 20px;
+	padding: 15px;
+	justify-content: center;
+	align-items: center;
+	margin-bottom: 60px;
+}
+
+.facts input {
+	background-color: #b3abca;
+	border: none;
+	border-radius: 5px;
+	height: 35px;
+	text-align: center;
+	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+	color: white;
+}
